@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cac8d0; /* Light blue background for the body */
+    margin: 0;
+    padding: 0;
+    color: rgb(183, 188, 195)
+}
+
+.navbar {
+    background-color: rgb(18, 50, 99); /* Dark blue for the navbar */
+}
+
+.navbar-brand {
+    color: #e6e6e6; /* White text for the navbar brand */
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #dbe5ed; /* Light blue for navbar links */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8f8f8; /* White text on hover */
+    text-decoration: underline;
+}
+
+.hero-section {
+    background-image: url('C:\Users\satha\OneDrive\Desktop\My Website\4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #151259; /* White text in the hero section */
+    text-align: center;
+}
+
+.hero-section h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: #2f3f4e; /* Dark blue color */
+}
+.container {
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Ensure card takes full height of its container */
+    border: 1px solid #03213e;
+    border-radius: .25rem;
+}
+
+.card-body {
+    flex: 1; /* Allows the card body to grow and fill the available space */
+    padding: 1.25rem;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+}
+
+.card-text {
+    margin-bottom: 1.25rem;
+}
+
+.container {
+    margin-top: 20px;
+    color: rgb(15, 49, 100)
+}
+
+.card {
+    margin-bottom: 40px;
+    border: 1px solid #032642; /* Light blue border for cards */
+    border-radius: .25rem;
+    background-color: #1b114b; /* White background for cards */
+}
+
+.card-body {
+    padding: 1.25rem;
+    color: rgb(15, 49, 100)
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    color: rgb(15, 49, 100); /* Dark blue for card titles */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #9d9fa1;
+}
+
+th, td {
+    padding: 1px;
+    text-align: left;
+}
+
+th {
+    background-color: #f1f1f1;
+}
+
+.footer {
+    background-color: rgb(15, 49, 100); /* Dark blue for the footer */
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.footer a {
+    margin: 0 10px;
+    color: #bbdefb; /* Light blue for footer links */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #1e0c3e; /* White text on hover */
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+}
